@@ -1,6 +1,5 @@
-import * as React from 'react';
+import React from 'react';
 import './SpriteByte.css';
-import { __values } from 'tslib';
 
 export default class SpriteByte extends React.Component<{ byte: number }> {
     constructor(props: any) {
